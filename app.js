@@ -18,9 +18,6 @@ bouton.addEventListener('click', () => {
     boutonSuppression.addEventListener('click', () => {
       nouvelleTache.remove();
     });
-
-
-
     const boutonAccomplir = document.createElement('button');
     boutonAccomplir.textContent = '✔️';
     nouvelleTache.appendChild(boutonAccomplir);
