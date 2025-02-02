@@ -20,13 +20,14 @@ bouton.addEventListener('click', () => {
     });
 
 
+
     const boutonAccomplir = document.createElement('button');
     boutonAccomplir.textContent = '✔️';
     nouvelleTache.appendChild(boutonAccomplir);
 
     boutonAccomplir.addEventListener('click', () => {
 
-      
+
       nouvelleTache.style.textDecoration = 'line-through';
       nouvelleTache.style.color = 'gray';
       boutonAccomplir.disabled = true;  
