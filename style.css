@@ -1,0 +1,33 @@
+body {
+  background: #000000b7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30% auto;
+}
+
+.result-content {
+  padding: 10px;
+  margin: 62px -173px 0 0;
+}
+
+
+ul {
+  
+  padding: 12px 0;
+  text-decoration: none;
+}
+li{
+  margin: 12px 0;
+  padding: 12px 0;
+  background: rgba(0, 255, 17, 0.183);
+  list-style-type: none;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+button{
+  cursor: pointer;
+  margin: 0 -62px;
+}
